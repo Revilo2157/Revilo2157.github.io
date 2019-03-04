@@ -1,22 +1,47 @@
 h1{
   font-size: 30px;
   font-family: "Helvetica", "Arial", sans-serif;
-  padding: 5px;
+  padding: 0px;
+  margin: 0px;
 }
+
+h2{
+  font-size: 30px;
+  padding: inherit;
+  top: 50%;
+}
+
+.content{
+  margin: auto;
+  max-width: 960px;
+}
+
 body{
   background-color: lightblue;
+  margin:auto;
+  max-width: 960px;
+  padding: 10px;
 }
 
 .bio{
   text-align: left;
-  width: 50%;
+  width: 500px;
   float: left;
 }
 
+.intro{
+  font-size: 20px;
+  max-width: 960px;
+  height: 300px;
+}
+
+.projects{
+  max-width: 960px;
+}
+
 img{
-  width: 50%;
-  float: center;
-  padding-left: 25%;
+  max-width: 225px;
+  max-height: 300px;
 }
 
 .column{
@@ -25,12 +50,14 @@ img{
   margin: 20px 1.15%;
   height: 100px;
   background-color: gray;
+  text-align: center;
 }
 
 .menu{
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  max-width: 960px;
 }
 
 .menu > li{
